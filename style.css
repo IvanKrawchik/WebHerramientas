@@ -268,3 +268,85 @@ footer h6{
     color: grey;
 }
 
+/* Home */
+/* Imagen principal con titulo */
+.primeraSection{
+    height: 100vh;
+    background-image: url(img/imagen.jpg);
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+}
+.primeraSection h1, .primeraSection h2,.primeraSection i{
+    color:#fff;
+}
+.primeraSection h1{
+    padding-top: 20%;
+    font-size: 70px;
+    font-weight: 700;
+}
+.primeraSection i{
+    font-size: 100px;
+}
+
+/* Servicios, Nosotros, Numeros Institucionales, Marcas y Contacto*/
+.servicios{
+    overflow: hidden;
+    padding: 7% 20%;
+}
+.servicios .card-body, .nosotros .card-body{
+    background-color:  rgb(237, 239, 240);
+}
+.servicios .card, .nosotros .card, .numerosInstitucionales .card{
+    border: none;
+}
+.servicios h3, .nosotros h3,.marcas h3,.contacto h3{
+    font-size: 40px;
+}
+.separador{
+    height: 5px;
+    width: 10%;
+    background-color: blue;
+    margin-left: 45%;
+    margin-bottom: 5%;
+}
+.nosotros .card-body{
+    height: 100%;
+}
+.nosotros .imagen{
+    background-image: url(img/nosotros.jpg);
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+}
+.numerosInstitucionales .card-body{
+    background-color: rgb(84, 94, 184);
+}
+.numerosInstitucionales h4{
+    font-size: 50px;
+}
+.numerosInstitucionales h6{
+    font-size: 25px;
+}
+.numerosInstitucionales .card-group{
+    width: 95%;
+    padding-left: 5%;
+}
+.numerosInstitucionales{
+    background-color: rgb(84, 94, 184);
+}
+.marcas img{
+    filter: grayscale(100%)
+}
+.marcas img:hover{
+    filter: none
+}
+.contacto iframe{
+    height: 450px;
+    width: 75%;
+}
+@media (max-width:768px){
+    .contacto iframe{
+        width: 100%;
+    }
+}
