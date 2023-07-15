@@ -8,12 +8,14 @@
     <!-- Diseño -->
     <!-- Iconos -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/img/favicon.png" />
+    <!-- Bootstrap y Css -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 
     <!-- Titulo de la pagina -->
-    <title>Web Herramientas</title>
+    <title>Retail & Trader del Sur</title>
 </head>
 
 <body>
@@ -31,13 +33,13 @@
                     <a href="/index.html">Inicio</a>
                 </div>
                 <div class="item">
-                    <a href="#nosotros">Empresa</a>
+                    <a href="#nosotros">Nosotros</a>
                 </div>
                 <div class="item">
                     <a href="templates/catalogo.html">Catalogo</a>
                 </div>
                 <div class="item-button">
-                    <a href="#contacto" type="button">Contacto</a>
+                    <a type="button" href="https://api.whatsapp.com/send?phone=1125341479" target="_blank">Contacto</a>
                 </div>
             </div>
 
@@ -55,29 +57,21 @@
                     <div class="modal-content">
                         <!-- Logo  -->
                         <div class="modal-header">
-                            <img src="/img/logo-variant.png" alt="Logo">
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i class='bx bx-x' ></i></button>
                         </div>
 
                         <!-- Contenido Menu Mobile -->
                         <div class="modal-body">
-                            <div class="modal-line">
+                            <div class="modal-line text-center">
                                 <a href="index.html">Inicio</a>
                             </div>
-                            <div class="modal-line">
-                                <a href="index.html#nosotros">Empresa</a>
+                            <div class="modal-line text-center">
+                                <a href="index.html#nosotros">Nosotros</a>
                             </div>
-                            <div class="modal-line">
+                            <div class="modal-line text-center">
                                 <a href="/templates/catalogo.html">Catalogo</a>
                             </div>
-                            <a href="#contacto" class="navb-button" type="button">Contacto</a>
-                        </div>
-
-                        <!-- Redes -->
-                        <div class="mobile-modal-footer">
-                            <a target="_blank" href="#"><i class='bx bxl-instagram'></i></a>
-                            <a target="_blank" href="#"><i class='bx bxl-facebook'></i></a>
-                            <a target="_blank" href="#"><i class='bx bxl-whatsapp'></i></a>
+                            <a href="https://api.whatsapp.com/send?phone=1125341479" target="_blank" class="navb-button" type="button">Contacto</a>
                         </div>
                     </div>
                 </div>
@@ -87,7 +81,7 @@
 
     <!-- Seccion con imagen princiapl -->
     <section class="primeraSection text-center">
-        <h1>Empresa Herrx. S.A.</h1>
+        <h1>Retail & Trader del Sur</h1>
         <h2>Acompañando en la construccion de sueños</h2>
         <i class='bx bx-chevron-down'></i>
     </section>
@@ -223,51 +217,35 @@
     <section class="contacto pt-5 pb-5" id="contacto">
         <h3 class="text-center">CONTACTO</h3>
         <div class="separador"></div>
-        <!-- Mapa  -->
-        <div class="mapa text-center">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13134.369852453936!2d-58.38832093300824!3d-34.61446549538524!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccaba6ac89b35%3A0x1a2dc24cbca665a7!2sUADE!5e0!3m2!1ses!2sar!4v1689269957527!5m2!1ses!2sar" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
     </section>
 
     <footer class="footer bg-dark text-light pt-3">
         <div class="container">
             <div class="row">
                 <div class="row">
-                    <div class="col-md-6 row text-center">
+                    <div class="col-md-6 text-center">
                         <div class="col footerCol">
-                            <h6 class="tituloFooter">Enlaces útiles</h6>
+                            <h6 class="tituloFooter">Informacion</h6>
                             <ul class="list-unstyled">
-                                <li><a href="#">Términos y condiciones</a></li>
-                                <li><a href="#">Política de privacidad</a></li>
-                                <li><a href="#">Preguntas frecuentes</a></li>
-                                <li><a href="#">Trabaja con nosotros</a></li>
-                            </ul>
-                        </div>
-                        <div class="col footerCol">
-                            <h6 class="tituloFooter">Enlaces útiles</h6>
-                            <ul class="list-unstyled">
-                                <li><a href="#">Términos y condiciones</a></li>
-                                <li><a href="#">Política de privacidad</a></li>
-                                <li><a href="#">Preguntas frecuentes</a></li>
-                                <li><a href="#">Trabaja con nosotros</a></li>
+                                <li><a href="#">Inicio</a></li>
+                                <li><a href="#">Nosotros</a></li>
+                                <li><a href="#">Catalogo</a></li>
                             </ul>
                         </div>
                     </div>
                 <div class="col-md-6">
                     <h6 class="text-center tituloFooter">Contactanos</h6>
-                    <p class=" direccion mb-0 text-center">Direccion: Ingeniero Rodriguez 145, Pilar.</p>
-                    <p class="telefono text-center">Telefono: 11-1111-2222</p>
+                    <p class=" email mb-0 text-center">Email: <a href="mailto:info@rtdelsur.com">info@rtdelsur.com</a></p>
+                    <p class="telefono text-center">Telefono: <a href="tel:1125341479">1125341479</a></p>
                     <ul class="list-inline social-media-icons text-center pt-2">
-                        <li class="list-inline-item"><a href="#"><i class='bx bxl-instagram'></i></a></li>
-                        <li class="list-inline-item"><a href="#"><i class='bx bxl-whatsapp'></i></a></li>
-                        <li class="list-inline-item"><a href="#"><i class='bx bxl-facebook'></i></a></li>
+                        <li class="list-inline-item"><a href="https://api.whatsapp.com/send?phone=1125341479" target="_blank"><i class='bx bxl-whatsapp'></i></a></li>
                     </ul>
                 </div>
             </div>
             <div class="row">
                 <div class="col">
                     <hr>
-                    <p class="text-center">© 2023 Empresa - Todos los derechos reservados</p>
+                    <p class="text-center">© 2023 Retail & Trader del Sur - Todos los derechos reservados</p>
                 </div>
             </div>
         </div>
