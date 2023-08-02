@@ -211,7 +211,31 @@ header i{
 }
 
 /* Catalogo */
-.catalogo{
+/* .categoria{
+    padding: 0;
+}
+.categoria .card{
+    border:none;
+} */
+.catalogo .card {
+    max-height: 200px;
+    padding: 0;
+    border-radius: 0;
+    border: none;
+    --bs-card-inner-border-radius:none;
+}
+.catalogo .card img{
+    max-height: 200px;
+    border: none;
+    object-fit:cover;
+    opacity: 0.3;
+}
+.catalogo .row{
+    margin-right: 0;
+}
+
+
+/* .catalogo{
     display: inline-block;
     padding: 0% 20%;
     margin: 3% 0%;
@@ -250,7 +274,7 @@ padding: 4%;
 .catalogo h2{
     text-align: left;
     padding-bottom: 2%;
-}
+} */
 
 
 /* Footer */
@@ -301,7 +325,7 @@ footer .contacto p{
     color:#fff;
 }
 .primeraSection h1{
-    padding-top: 20%;
+    padding-top: 15%;
     font-size: 70px;
     font-weight: 700;
 }
@@ -309,18 +333,34 @@ footer .contacto p{
     font-size: 100px;
 }
 
-/* Servicios, Nosotros, Numeros Institucionales, Marcas y Contacto*/
-.servicios{
+/* Servicios, Nosotros, Numeros Institucionales, Marcas, Contacto, Destacado(Catalogo), Catalogo*/
+.servicios, .destacado{
     overflow: hidden;
     padding: 7% 20%;
 }
-.servicios .card-body, .nosotros .card-body{
+.servicios img{
+    max-height: 218px;
+    min-height: 218px;
+    object-fit: cover;
+}
+.destacado{
+    padding: 5% 10%;
+}
+.destacado .separador{
+    margin-bottom: 2%;
+}
+@media(min-width:1100px){
+    .destacado{
+        padding:2% 25%;
+    }
+}
+.servicios .card-body, .nosotros .card-body, .destacado .card-body, .nosotros .card-body{
     background-color:  rgb(237, 239, 240);
 }
-.servicios .card, .nosotros .card, .numerosInstitucionales .card{
+.servicios .card, .nosotros .card, .numerosInstitucionales .card, .destacado .card, .nosotros .card, .numerosInstitucionales .card{
     border: none;
 }
-.servicios h3, .nosotros h3,.marcas h3,.contacto h3{
+.servicios h3, .nosotros h3,.marcas h3,.contacto h3, .destacado h3{
     font-size: 40px;
 }
 .separador{
@@ -364,4 +404,33 @@ footer .contacto p{
 }
 .marcas img:hover{
     filter: none
+}
+.contacto h4{
+    font-size: 30px;
+}
+.contacto i{
+    font-size: 30px;
+}
+.contacto .telefono{
+    padding-left: 3%;
+}
+
+/* Boton Flotante Whatsapp */
+.whatsappFlotante {
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:40px;
+    right:40px;
+    background-color:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:30px;
+    z-index:100;
+}
+
+.whatsappFlotante i {
+    margin-top:6px;
+    font-size: 45px;
 }
