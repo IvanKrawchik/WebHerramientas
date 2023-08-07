@@ -281,11 +281,6 @@ padding: 4%;
 .tituloFooter{
     min-width: 140px;
 }
-@media(max-width:475px){
-    .footerCol{
-        padding-left: 9%;
-    }
-}
 
 .footer i{
     font-size: 25px;
