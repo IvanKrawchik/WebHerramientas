@@ -210,71 +210,6 @@ header i{
     font-size: 30px;
 }
 
-/* Catalogo */
-/* .categoria{
-    padding: 0;
-}
-.categoria .card{
-    border:none;
-} */
-.catalogo .card {
-    max-height: 200px;
-    padding: 0;
-    border-radius: 0;
-    border: none;
-    --bs-card-inner-border-radius:none;
-}
-.catalogo .card img{
-    max-height: 200px;
-    border: none;
-    object-fit:cover;
-    opacity: 0.3;
-}
-.catalogo .row{
-    margin-right: 0;
-}
-
-
-/* .catalogo{
-    display: inline-block;
-    padding: 0% 20%;
-    margin: 3% 0%;
-}
-.catalogo .card{
-    border: solid 1px #0e2f64;
-}
-.catalogo .card .card-footer{
-    border-top: solid 1px #0e2f64;
-}
-.catalogo .card .card-footer button{
-    font-weight: 800;
-}
-.catalogo .card .card-footer button:hover{
-    font-weight: 400;
-}
-.catalogo .card .card-body p{
-    max-height: 50px;
-    max-width: 300px;
-    display: -webkit-box;
-    white-space: normal;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 2;
-    overflow: hidden;
-}
-.catalogo .card .card-body{
-padding: 4%;
-}
-.catalogo a{
-    cursor: pointer;
-}
-
-.catalogo .card-footer{
-    text-align: end;
-}
-.catalogo h2{
-    text-align: left;
-    padding-bottom: 2%;
-} */
 
 
 /* Footer */
@@ -408,6 +343,110 @@ footer .contacto p{
 }
 .contacto .telefono{
     padding-left: 3%;
+}
+
+/* Catalogo */
+.compresor{
+    margin-left: 15%;
+}
+.catalogo{
+    width: 100%;
+    display: inline-block;
+}
+.catalogo .card{
+    display: inline-block;
+}
+.catalogo .card {
+    padding: 0;
+    border-radius: 0;
+    border: none;
+    --bs-card-inner-border-radius:none;
+    cursor: pointer;
+}
+.catalogo .card:hover {
+    opacity: 0.6;
+}
+.catalogo .card img{
+    border: none;
+    object-fit:cover;
+    opacity: 1;
+}
+.catalogo .row{
+    margin-right: 0;
+}
+.container-catalogo{
+    display: flex;
+}
+@media(max-width:1199px){
+    .compresor{
+        margin-left: 0%;
+    }
+    .motor{
+        margin-left: 25%;
+    }
+}
+@media(max-width:767px){
+    .motor{
+        margin-left: 0%;
+    }
+}
+@media(min-width:768px){
+    .catalogo{
+        width: 66%;
+    }
+    .catalogo .card{
+        width: 18rem;
+    }
+}
+@media(max-width:1327px){
+    .catalogo .card{
+        width: 13rem;
+    }}
+
+/* Categorias */
+.categorias{
+    width: 350px;
+    padding-top: 7%;
+    padding-left: 5%;
+    display: inline-block;
+}
+.categorias h5{
+    font-size: 24px;
+}
+.categorias button{
+    padding: 5% 0%;
+    font-size: 17px
+}
+.categorias .separador{
+    width:42%;
+    margin-left: 0%;
+}
+.categorias li{
+    cursor: pointer;
+}
+@media(max-width:767px){
+    .container-catalogo{
+        display: block;
+    }
+    .categorias h5{
+        text-align: center;
+        font-size:30px;
+    }
+    .categorias .separador{
+        width:10%;
+        margin-left: 45%;
+    }
+    .categorias{
+        display: block;
+        width: 100%;
+    }
+    .categorias .btn-group{
+        display: block;
+    }
+    .categorias button{
+        padding: 2%;
+        text-align: center;
+    }
 }
 
 /* Boton Flotante Whatsapp */
