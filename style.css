@@ -346,6 +346,12 @@ footer .contacto p{
 }
 
 /* Catalogo */
+.servicios .col:hover{
+    opacity: 0.7;
+}
+.servicios .card{
+    cursor:default;
+}
 .compresor{
     margin-left: 15%;
 }
@@ -353,10 +359,8 @@ footer .contacto p{
     width: 100%;
     display: inline-block;
 }
-.catalogo .card{
-    display: inline-block;
-}
 .catalogo .card {
+    display: inline-block;
     padding: 0;
     border-radius: 0;
     border: none;
@@ -402,7 +406,43 @@ footer .contacto p{
     .catalogo .card{
         width: 13rem;
     }}
-
+/* Leer Mas */
+.extra1,.extra2,.extra3,.extra4,.extra5{
+    display: none;
+}
+input[type="checkbox"]{
+    height: 1em;
+    display: block;
+    appearance: none;
+}
+label{
+    position: relative;
+    color: #0e2f64;
+    font-weight: 600;
+    cursor:pointer;
+    float:right;
+}
+label::before{
+    content: 'Leer Mas';
+}
+input[type="checkbox"]:checked ~ label::before{
+    content:'Leer Menos';
+}
+.extra1:has(~ input[type="checkbox"]:checked){
+    display: inline;
+}
+.extra2:has(~ input[type="checkbox"]:checked){
+    display: inline;
+}
+.extra3:has(~ input[type="checkbox"]:checked){
+    display: inline;
+}
+.extra4:has(~ input[type="checkbox"]:checked){
+    display: inline;
+}
+.extra5:has(~ input[type="checkbox"]:checked){
+    display: inline;
+}
 /* Categorias */
 .categorias{
     width: 350px;
