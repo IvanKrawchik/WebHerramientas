@@ -1,8 +1,8 @@
-// Categorias
+// Categorías
 const btns1=[
     {
         id: 1,
-        name: 'Enfriador abierto de multiples pisos'
+        name: 'Enfriador abierto de múltiples pisos'
     },
     {
         id: 2,
@@ -14,7 +14,7 @@ const btns1=[
     },
     {
         id: 4,
-        name: 'Mostrador de exhibicion de carne fresca'
+        name: 'Mostrador de exhibición de carne fresca'
     },
     {
         id: 5,
@@ -26,7 +26,7 @@ const btns1=[
     },
     {
         id: 7,
-        name: 'Refrigerador de exhibicion de promocion'
+        name: 'Refrigerador de exhibición de promoción'
     },
     {
         id: 8,
@@ -42,7 +42,7 @@ const btns2=[
 const btns3=[
     {
         id: 10,
-        name: 'Unidad de condensacion semihermetica'
+        name: 'Unidad de condensación semihermetica'
     }]
 
     // Dropdown 1
@@ -83,7 +83,7 @@ const btns3=[
     {
         id: 1,
         image: 'https://ivankrawchik.github.io/WebHerramientas/img/runtecool/1.webp',
-        title: ' Enfriador abierto de múltiples pisos ',
+        title: ' Enfriador abierto de múltiples pisos',
 
     },
     {
@@ -315,11 +315,11 @@ const btns3=[
     }
     ];
     
-    // Filtra los productos por categorias
+    // Filtra los productos por categorías
     const categories = [...new Set(product.map((item)=>
         {return item}))]
     
-    // Muestra de arranque solo los productos de la primera categoria
+    // Muestra de arranque solo los productos de la primera categoría
     const initialCategory = 1;
     const initialProducts = product.filter((item) => item.id === initialCategory);
     let currentCategoryId = initialCategory
@@ -331,12 +331,12 @@ const btns3=[
         ${items.map((item)=> {
             var {image, title} = item;
             return(
-                `<div class="card">
+                `<a class="card" href="https://ivankrawchik.github.io/WebHerramientas/templates/catalogo.html#contacto">
                 <img src="${image}" class="card-img-top" alt="producto ${title}">
                 <div class="card-body">
                 <h6 class="card-title">${title}</h6>
                 </div>
-                </div>`)
+                </a>`)
         }).join('')}`;
     }
     
