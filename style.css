@@ -263,21 +263,15 @@ footer .contacto p{
     font-size: 100px;
 }
 
-/* Servicios, Nosotros, Numeros Institucionales, Marcas, Contacto, Destacado(Catalogo), Catalogo*/
-.servicios, .destacado{
+/* Servicios, Nosotros, Numeros Institucionales, Marcas, Contacto, Catalogo*/
+.servicios{
     overflow: hidden;
-    padding: 7% 20%;
+    padding: 7% 10%;
 }
 .servicios img{
     max-height: 218px;
     min-height: 218px;
     object-fit: cover;
-}
-.destacado{
-    padding: 5% 10%;
-}
-.destacado .separador{
-    margin-bottom: 2%;
 }
 @media(min-width:1100px){
     .destacado{
@@ -309,7 +303,7 @@ footer .contacto p{
     background-position: center top;
     background-attachment: fixed;
 }
-.numerosInstitucionales .card-body{
+/* .numerosInstitucionales .card-body{
     background-color: #274d8a;
 }
 .numerosInstitucionales h4{
@@ -328,7 +322,7 @@ footer .contacto p{
 }
 .numerosInstitucionales{
     background-color: #0e2f64;
-}
+} */
 .marcas img{
     filter: grayscale(100%)
 }
