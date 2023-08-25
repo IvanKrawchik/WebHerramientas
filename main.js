@@ -2,7 +2,7 @@
 const btns1=[
     {
         id: 1,
-        name: 'Enfriador abierto de múltiples pisos'
+        name: 'Enfriador abierto de m&uacute;ltiples pisos'
     },
     {
         id: 2,
@@ -14,7 +14,7 @@ const btns1=[
     },
     {
         id: 4,
-        name: 'Mostrador de exhibición de carne fresca'
+        name: 'Mostrador de exhibici&oacute;n de carne fresca'
     },
     {
         id: 5,
@@ -26,7 +26,7 @@ const btns1=[
     },
     {
         id: 7,
-        name: 'Refrigerador de exhibición de promoción'
+        name: 'Refrigerador de exhibición de promoci&oacute;n'
     },
     {
         id: 8,
@@ -83,13 +83,13 @@ const btns3=[
     {
         id: 1,
         image: 'https://ivankrawchik.github.io/WebHerramientas/img/runtecool/1.webp',
-        title: ' Enfriador abierto de múltiples pisos',
+        title: ' Enfriador abierto de m&uacute;ltiples pisos',
 
     },
     {
         id: 1,
         image: 'https://ivankrawchik.github.io/WebHerramientas/img/runtecool/2.webp',
-        title: 'Enfriador abierto vertical con pantalla múltiple de 4 capas',
+        title: 'Enfriador abierto vertical con pantalla m&uacute;ltiple de 4 capas',
 
     },
     {
@@ -101,7 +101,7 @@ const btns3=[
     {
         id: 1,
         image: 'https://ivankrawchik.github.io/WebHerramientas/img/runtecool/4.webp',
-        title: 'Enfriador de exhibición de piso múltiple vertical abierto de 5 capas de estantes de base baja',
+        title: 'Enfriador de exhibición de piso m&uacute;ltiple vertical abierto de 5 capas de estantes de base baja',
 
     },
     {
@@ -119,13 +119,13 @@ const btns3=[
     {
         id: 1,
         image: 'https://ivankrawchik.github.io/WebHerramientas/img/runtecool/7.webp',
-        title: 'Enfriador de exhibición vertical de múltiples pisos con estantes de 4 capas',
+        title: 'Enfriador de exhibici&oacute;n vertical de m&uacute;ltiples pisos con estantes de 4 capas',
 
     },
     {
         id: 1,
         image: 'https://ivankrawchik.github.io/WebHerramientas/img/runtecool/8.webp',
-        title: 'Enfriador de exhibición vertical de múltiples pisos con estantes de 4 capas',
+        title: 'Enfriador de exhibici&oacute;n vertical de m&uacute;ltiples pisos con estantes de 4 capas',
 
     },
     {
@@ -146,12 +146,12 @@ const btns3=[
     {
         id: 2,
         image: 'https://ivankrawchik.github.io/WebHerramientas/img/runtecool/12.webp',
-        title: 'Enfriador del refrigerador de la exhibición de la puerta de cristal superior de la caja de luz',
+        title: 'Enfriador del refrigerador de la exhibici&oacute;n de la puerta de cristal superior de la caja de luz',
     },
     {
         id: 2,
         image: 'https://ivankrawchik.github.io/WebHerramientas/img/runtecool/13.webp',
-        title: 'Escaparate estándar de enfriadores y congeladores de doble temperatura',
+        title: 'Escaparate est&aacute;ndar de enfriadores y congeladores de doble temperatura',
     },
     {
         id: 2,
@@ -166,7 +166,7 @@ const btns3=[
     {
         id: 3,
         image: 'https://ivankrawchik.github.io/WebHerramientas/img/runtecool/16.webp',
-        title: 'Congelador de exhibición de puerta de vidrio de 3 puertas',
+        title: 'Congelador de exhibici&oacute;n de puerta de vidrio de 3 puertas',
     },
     {
         id: 3,
@@ -176,12 +176,12 @@ const btns3=[
     {
         id: 3,
         image: 'https://ivankrawchik.github.io/WebHerramientas/img/runtecool/18.webp',
-        title: 'Congelador del refrigerador de la exhibición de la puerta de cristal con la caja de luz',
+        title: 'Congelador del refrigerador de la exhibici&oacute;n de la puerta de cristal con la caja de luz',
     },
     {
         id: 4,
         image: 'https://ivankrawchik.github.io/WebHerramientas/img/runtecool/19.webp',
-        title: 'Refrigerador de exhibición de carne colgante con puerta de vidrio',
+        title: 'Refrigerador de exhibici&oacute;n de carne colgante con puerta de vidrio',
     },
     {
         id: 4,
@@ -241,7 +241,7 @@ const btns3=[
     {
         id: 6,
         image: 'https://ivankrawchik.github.io/WebHerramientas/img/runtecool/31.webp',
-        title: 'Congelador de isla de pared con salida de aire única',
+        title: 'Congelador de isla de pared con salida de aire &uacute;nica',
     },
     {
         id: 6,
@@ -276,7 +276,7 @@ const btns3=[
     {
         id: 7,
         image: 'https://ivankrawchik.github.io/WebHerramientas/img/runtecool/38.webp',
-        title: 'Refrigerador de exhibición de promoción horizontal tipo plug-in',
+        title: 'Refrigerador de exhibici&oacute;n de promoción horizontal tipo plug-in',
     },
     {
         id: 7,
@@ -286,32 +286,32 @@ const btns3=[
     {
         id: 8,
         image: 'https://ivankrawchik.github.io/WebHerramientas/img/runtecool/40.webp',
-        title: 'Caminar en la cámara frigorífica del congelador',
+        title: 'Caminar en la c&aacute;mara frigor&iacute;fica del congelador',
     },
     {
         id: 9,
         image: 'https://ivankrawchik.github.io/WebHerramientas/img/runtecool/41.webp',
-        title: 'almacenamiento en cámara frigorífica para huevos de frutas y verduras',
+        title: 'almacenamiento en cámara frigor&iacute;fica para huevos de frutas y verduras',
     },
     {
         id: 9,
         image: 'https://ivankrawchik.github.io/WebHerramientas/img/runtecool/42.webp',
-        title: 'pescado fresco y carne congelador rápido cámara frigorífica',
+        title: 'pescado fresco y carne congelador rápido c&aacute;mara frigor&iacute;fica',
     },
     {
         id: 9,
         image: 'https://ivankrawchik.github.io/WebHerramientas/img/runtecool/43.webp',
-        title: 'carne mariscos almacenamiento en cámara frigorífica',
+        title: 'carne mariscos almacenamiento en c&aacute;mara frigor&iacute;fica',
     },
     {
         id: 9,
         image: 'https://ivankrawchik.github.io/WebHerramientas/img/runtecool/44.webp',
-        title: 'Almacenamiento en cámara frigorífica de frutas y verduras',
+        title: 'Almacenamiento en c&aacute;mara frigor&iacute;fica de frutas y verduras',
     },
     {
         id: 10,
         image: 'https://ivankrawchik.github.io/WebHerramientas/img/runtecool/45.webp',
-        title: 'Unidad de condensación de pistón semicerrada Bitzer',
+        title: 'Unidad de condensación de pist&oacute;n semicerrada Bitzer',
     }
     ];
     
@@ -348,6 +348,6 @@ const btns3=[
     }
 
     // Mostrar solo los productos de la primera categoría al arranque
-    filterItems(initialCategory, "ENFRIADOR ABIERTO DE MULTIPLES PISOS");
+    filterItems(initialCategory, "ENFRIADOR ABIERTO DE M&Uacute;LTIPLES PISOS");
 
 
